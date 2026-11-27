@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "dev.xhyrom.brigo.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "server.CommandHandlerMixin",
+    "server.PlayerListMixin"
+  ],
+  "client": [
+    "client.ChatTabCompleterMixin",
+    "client.GuiChatMixin",
+    "client.GuiTextFieldMixin",
+    "client.NetHandlerPlayClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

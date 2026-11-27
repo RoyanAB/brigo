@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "brigo",
+  "version": "${version}",
+  "name": "Brigo",
+  "description": "Brings modern Brigadier-style command suggestions and autocomplete to legacy Minecraft versions.",
+  "authors": [
+    "xhyrom"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/brigo",
+    "sources": "https://github.com/xhyrom/brigo"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/brigo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.xhyrom.brigo.BrigoClientOrnithe"
+    ]
+  },
+  "mixins": [
+    "brigo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": [
+      "1.12",
+      "1.12.1",
+      "1.12.2"
+    ]
+  }
+}
